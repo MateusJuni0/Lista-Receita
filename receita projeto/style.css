@@ -1,0 +1,53 @@
+img{ 
+    margin-left: 300px;
+    width: 400px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Define a altura da tela inteira */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    flex-direction: column; /* Define a direção da flexbox como coluna */
+    background-color: rgb(250, 227, 195);
+    
+}
+.container {
+    border: 2px solid #ccc; /* Adiciona uma borda de 1px com cor cinza */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Adiciona uma sombra com desfoque de 10px */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+}
+h1 {
+ 
+    color: red; /* Definir a cor do título */
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    margin-bottom: 2px;
+    text-align: center;
+}
+hr {
+    padding: 1px;
+}
+ul,li {
+    list-style-type: none; /* ou outro tipo de marcador, como circle ou square */
+    text-align: center; /* ou left, right, center, etc. */
+}
+.text{
+    color: blue;
+
+}
+.social-icons {
+    width: 1px;
+    display: flex;
+    
+}
+.social-icon {
+    width: 40px;
+    margin: 5px;
+    
+}
